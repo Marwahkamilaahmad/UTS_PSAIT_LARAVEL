@@ -25,6 +25,7 @@ switch ($request_method) {
             break;
    
    case 'PUT':
+            update_mhs();
             break;
    default:
 
